@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/programasstyle.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11.1.9/swiper-bundle.min.css">
+    <title>Programas | Lifting Hands</title>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div>
+                <a href="index.html">
+                    <img src="imagenes/Logo.png" alt="Logo Lifting Hands">
+                </a>
+            </div>
+            <div>
+                <ul class="links">
+                    <li><a href="quienesomos.html">¿Quiénes somos?</a></li>
+                    <li><a href="Programas.html">Programas</a></li>
+                    <li><a href="voluntariado.html">Voluntariado</a></li>
+                    <li><a href="donaciones.html">Donaciones</a></li>
+                    <li><a href="impacto.html">Impacto</a></li>
+                </ul>
+            </div>
+            <div>
+                <a href="donaciones.html" class="action_btn">Donar</a>
+            </div>
+        </div>
+    </header>
+    
+    <section class="main swiper mySwiper">
+        <div class="wrapper swiper-wrapper">
+            <div class="slide swiper-slide">
+                <img src="imagenes/apoyoescolar.png" alt="Apoyo Escolar" class="image">
+                <div class="image-data">
+                    <span class="text"><h1>Apoyo Escolar</h1></span>
+                    <p class="texto">Asistencia con tareas y proyectos escolares para niños y adolescentes.</p>
+                    <a href="voluntariado.html" class="button">Ser Voluntario</a>
+                </div>    
+            </div>
+            <!--slide 2-->
+            <div class="slide swiper-slide">
+                <img src="imagenes/claseingles.jpg" alt="Clase de Ingles" class="image">
+                <div class="image-data">
+                    <span class="text"><h1>Clases de Inglés</h1></span>
+                    <p class="texto">Para niños y adultos, con el objetivo de mejorar sus oportunidades laborales y educativas.</p>
+                    <a href="volutariado.html" class="button">Ser Voluntario</a>
+                </div>    
+            </div>
+            <!--slide 3-->
+            <div class="slide swiper-slide">
+                <img src="imagenes/empoderamiento.jpg" alt="Empoderamiento" class="image">
+                <div class="image-data">
+                    <span class="text"><h1>Programas de Empoderamiento</h1></span>
+                    <p class="texto">Iniciativas para empoderar a mujeres y jóvenes, ofreciéndoles herramientas para mejorar su autoestima y liderazgo.</p>
+                    <a href="volutariado.html" class="button">Ser Voluntario</a>
+                </div>    
+            </div>
+            <!--slide 4-->
+            <div class="slide swiper-slide">
+                <img src="imagenes/habilidades.jpg" alt="Capacitación en Habilidades" class="image">
+                <div class="image-data">
+                    <span class="text"><h1>Capacitación en Habilidades</h1></span>
+                    <p class="texto">Talleres y cursos que enseñan habilidades prácticas, como informática, costura, y manualidades.</p>
+                    <a href="volutariado.html" class="button">Ser Voluntario</a>
+                </div>    
+            </div>
+            <!--slide 5-->
+            <div class="slide swiper-slide">
+                <img src="imagenes/nutricion.jpg" alt="Programa de Nutrición" class="image">
+                <div class="image-data">
+                    <span class="text"><h1>Programa de Nutrición</h1></span>
+                    <p class="texto">Educación sobre nutrición y preparación de alimentos saludables.</p>
+                    <a href="volutariado.html" class="button">Ser Voluntario</a>
+                </div>    
+            </div>
+            <!--slide 6-->
+            <div class="slide swiper-slide">
+                <img src="imagenes/recreacion.jpg" alt="Actividades recreativas" class="image">
+                <div class="image-data">
+                    <span class="text"><h1>Actividades recreativas</h1></span>
+                    <p class="texto">Programas de deportes, arte y música para fomentar el desarrollo integral de los participantes.</p>
+                    <a href="volutariado.html" class="button">Ser Voluntario</a>
+                </div>    
+            </div>
+        </div>
+
+        <div class="swiper-button-next nav-btn"></div>
+        <div class="swiper-button-prev nav-btn"></div>
+        <div class="swiper-pagination"></div>
+    </section>   
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11.1.9/swiper-bundle.min.js"></script> 
+    <script src="js/js.js"></script>
+    
+     <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      loop: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>  
+  <footer>
+    <div class="footer-container">
+        <div class="footer-section">
+            <h4>Redes Sociales</h4>
+            <ul class="social-links">
+                <li><a href="https://www.facebook.com/liftinghands" target="_blank">Facebook</a></li>
+                <li><a href="https://www.instagram.com/liftinghands/" target="_blank">Instagram</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h4>Contacto</h4>
+            <p>Teléfono: (506) 8866-7000</p>
+            <p>Email: info@liftinghands.org</p>
+        </div>
+        <div class="footer-section">
+            <h4>Derechos y Privacidad</h4>
+            <p>&copy; 2022 LIFTING HANDS. Todos los derechos reservados.</p>
+            <p><a href="privacidad.html">​Cédula jurídica: 3-006-668123</a></p>
+        </div>
+        <div class="footer-section">
+            <h4>Dirección</h4>
+            <p>&copy; Bajo de los Anonos</p>
+            <p><a href="https://maps.app.goo.gl/3Sc6sxK9PCBnL3yp8">San José, Costa Rica</a></p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
